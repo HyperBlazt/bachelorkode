@@ -1,0 +1,10 @@
+SQL SEARCH WITHOUT CASHING:
+
+Result: False - found in 00:00:20.4827742
+Result: False - found in 00:00:06.1867555
+Result: False - found in 00:00:07.9250902
+Result: False - found in 00:00:07.8358432
+Result: False - found in 00:00:06.3370783
+Result: False - found in 00:00:06.6801695
+Result: True - found in 00:00:01.6642872
+Result: True - found in 00:00:07.0931113

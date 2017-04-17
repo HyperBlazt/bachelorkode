@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ba_createData.ba_createData.Bwt" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Burrows-Wheeler Transform\BWT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.ba_createData.BwtImplementation" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Burrows-Wheeler Transform\BWT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.ba_createData.BwtComparator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAEAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Burrows-Wheeler Transform\BWT.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Collection.FourBitDigitStreamArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Collection\BigBoolArray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Collection.LongArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAgAAAAIAAA=</HashCode>
+      <FileName>Collection\BigBoolArray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Collection.StringArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Collection\BigBoolArray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Collection.SAIS" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAABAAAAAAAAAQIAAAAAEAAAABAEAAAAAAAFAEA=</HashCode>
+      <FileName>Collection\BigBoolArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Collection.FileUtil" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIICUAAAAQAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collection\FileUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Collection.FourBitDigitBigArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAACAAAAABAAAAAAAAECAAAAAAAAAA=</HashCode>
+      <FileName>Collection\FourBitDigitBigArray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Collection.MemoryEfficientBigULongArray" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABABAICAAAAABAAAAAAAAEAAAgAAAAAAQ=</HashCode>
+      <FileName>Collection\MemoryEfficientBigULongArray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ba_createData.Collection.MemoryEfficientByteAlignedBigULongArray" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAABAACAIAAABAAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>Collection\MemoryEfficientByteAlignedBigULongArray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ba_createData.Collection.UnderlyingStream" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collection\UnderlyingStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.CompressData" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompressData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Database" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAWAARBCAIIAFAQAAcABAAUAACBBAQQYQCQhEgABCA=</HashCode>
+      <FileName>Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.DecompressData" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DecompressData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Form1" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCIBAAGgQSAgIAPREMCQQADSK8w/MAYB0HA1IwkAALA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Program" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.SA_GetIndex" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SA_GetIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.SuffixArray" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gMAoBAAAACAAABAAAQAABAAABAEAECGgAACACAACQhA=</HashCode>
+      <FileName>SuffixArray_Purememory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Chain" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIQEAAAAAABAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>SuffixArray_Purememory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.CharComparer" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuffixArray_Purememory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.SuffixRankComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>SuffixArray_Purememory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.FourBitDigitStreamArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.LongArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAgAAAAIAAA=</HashCode>
+      <FileName>SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.217" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.StringArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.SuffixArrayInducedSorting" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAABAAAAAAAAAQIAAAAAEAAAABAEAAAAAAAFAEA=</HashCode>
+      <FileName>SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.SuffixTreeImplementation">
+    <Position X="17.75" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="ba_createData.SuffixTreeImplementation.Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SuffixTree_implementation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAACAEAAAAAAAAAAAIAAAAQAgACAAAAAA=</HashCode>
+      <FileName>SuffixTree_implementation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.SuffixTree" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEQgwAIECBCCAAAFCAAggAwAAAAgAAAAAQAIAGAIAA=</HashCode>
+      <FileName>SuffixTree1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.UpdateData">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UpdateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Const.Const" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAACIQQAAAAAAAAAgAgAAAAAAAAAAAAQAABA=</HashCode>
+      <FileName>Const\Const.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.IO.BigMemoryStream" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAARAAgHEAAICBgQAAAAEAAAAAEAAEIAGA=</HashCode>
+      <FileName>IO\BigMemoryStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Properties.Resources" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Properties.Settings">
+    <Position X="12.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCQAACAAAAAQAAAIAAAAAABAAQAAAAADAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Scanner.BinarySearchUsingLcp" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Scanner\BinarySearchUsingLcp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Scanner.MemoryDatabase" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAEABAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Scanner\MemoryDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Scanner.Scanner" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAgAAAAAAAgAEAAAAAAAAAACAgIABAAAQ=</HashCode>
+      <FileName>Scanner\Scanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Scanner.ScannerCaching" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAgAAAAAAAAAAECAAAAgAAAAAACAAQACAA=</HashCode>
+      <FileName>Scanner\ScannerCaching.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Scanner.ScannerConst" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAQAABA=</HashCode>
+      <FileName>Scanner\ScannerConst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Scanner.ScannerFileUtil">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ba_createData.Scanner.ScannerFileUtil.RmAppType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Scanner\ScannerFileUtil.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="ba_createData.Scanner.ScannerFileUtil.RmProcessInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Scanner\ScannerFileUtil.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ba_createData.Scanner.ScannerFileUtil.RM_UNIQUE_PROCESS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Scanner\ScannerFileUtil.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIICUAAAAQAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scanner\ScannerFileUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Server.Communication" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAACAAAAAQAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Server\Communication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Server.Login" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Server.MainServerControl" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAgAAYACAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Server\MainServerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Server.ServerConst" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\ServerConst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.BinarySearchWithLcp" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Suffix Arrays\BinarySearchWithLcp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.BuildLcpArray" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Suffix Arrays\BuildLcpArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.MinimizeSuffixArray" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Suffix Arrays\MinimizeSuffixArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.SuffixArray">
+    <Position X="15.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gMAoBAAAACAAABAAAQAADAAABAEAECGggACACAACQgA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayChains.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.Chain" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIQEAAAAAABAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayChains.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.CharComparer" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayChains.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.SuffixRankComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayChains.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.FourBitDigitStreamArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.LongArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAgAABAAAAA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.StringArray" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ba_createData.Suffix_Arrays.SuffixArrayInducedSorting" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAUABAAAAAAAAAAAAQEAAAAAkAAAABIAAAAAAAAAAEA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.suffixTree.Edge" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIEACAAAAAABEAAAAAAAAAAIAAQAAgAAAAAAAA=</HashCode>
+      <FileName>SuffixTree\Edge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.suffixTree.Node" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAkAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIABA=</HashCode>
+      <FileName>SuffixTree\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ba_createData.suffixTree.SuffixTree" Collapsed="true">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAgAgAEAAAIAAAAAQACAGAAAAABSAACAAI=</HashCode>
+      <FileName>SuffixTree\SuffixTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ba_createData.SuffixRank" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuffixArray_Purememory.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ba_createData.Suffix_Arrays.SuffixRank" Collapsed="true">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayChains.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="ba_createData.Collection.BaseArray" Collapsed="true">
+    <Position X="5.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collection\BigBoolArray.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ba_createData.Collection.IBigArray&lt;T&gt;" Collapsed="true">
+    <Position X="10.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collection\IBigArray.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ba_createData.BaseArray" Collapsed="true">
+    <Position X="7" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ba_createData.Suffix_Arrays.IBaseArray" Collapsed="true">
+    <Position X="8.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Suffix Arrays\SuffixArrayInducedSorting.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="ba_createData.suffixTree.VisitNode" Collapsed="true">
+    <Position X="7" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuffixTree\SuffixTree.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ba_createData.suffixTree.VisitEdge" Collapsed="true">
+    <Position X="5.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAgEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>SuffixTree\SuffixTree.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

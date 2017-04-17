@@ -1,0 +1,10 @@
+BINARY SEARCH W. LCP WITHOUT CASHING:
+
+Result: True - found in 00:00:00.0035589
+Result: True - found in 00:00:00.0039394
+Result: True - found in 00:00:00.0032683
+Result: True - found in 00:00:00.0004337
+Result: True - found in 00:00:00.0032176
+Result: True - found in 00:00:00.0039590
+Result: True - found in 00:00:00.0025497
+Result: True - found in 00:00:00.0013271

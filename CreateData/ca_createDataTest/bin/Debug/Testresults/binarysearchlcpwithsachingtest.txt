@@ -1,0 +1,10 @@
+BINARY SEARCH W. LCP WITH CASHING:
+
+Result: True - found in 00:00:00.0031525
+Result: True - found in 00:00:00.0042612
+Result: True - found in 00:00:00.0037578
+Result: True - found in 00:00:00.0004728
+Result: True - found in 00:00:00.0032356
+Result: True - found in 00:00:00.0045756
+Result: True - found in 00:00:00.0034303
+Result: False - found in 00:00:00.0000558

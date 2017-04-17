@@ -1,0 +1,10 @@
+BINARY SEARCH WITHOUT CASHING:
+
+Result: False - found in 00:00:01.0850031
+Result: False - found in 00:00:01.2580957
+Result: False - found in 00:00:03.2433626
+Result: False - found in 00:00:02.9149215
+Result: False - found in 00:00:01.4768233
+Result: False - found in 00:00:02.0110477
+Result: True - found in 00:00:00.4653810
+Result: True - found in 00:00:00.5244761
