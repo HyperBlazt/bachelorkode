@@ -107,7 +107,7 @@ namespace ba_createData.Scanner
                                                     var databaseDirectory = Thread.GetDomain().BaseDirectory +
                                                                             @"Quarantine\";
                                                     //File.Copy(filepath, databaseDirectory + fileNameWithOutExtension.ToLowerInvariant() + ".qua", true);
-                                                    File.Delete(filepath);
+                                                    //File.Delete(filepath);
                                                 }
                                                 else
                                                 {
