@@ -153,18 +153,18 @@ namespace ba_createData.Scanner
                                 lockedProcess.Kill();
                             }
 
-                            // Get all instances of Notepad running on the local computer.
+                            // Check if infected program is running, kill the process and those who lock.
                             Process[] localByName = Process.GetProcessesByName(filenameWithoutExrtension);
                             foreach (Process process in localByName)
                             {
                                 process.Kill();
                             }
                             var databaseDirectory = Thread.GetDomain().BaseDirectory + "Quarantine\\";
-                            if (File.Exists(databaseDirectory + filenameWithoutExrtension + ".qua"))
-                            {
-                                File.Delete(databaseDirectory + filenameWithoutExrtension + ".qua");
-                            }
-                            File.Move(file, databaseDirectory + filenameWithoutExrtension + ".qua");
+                            //if (File.Exists(databaseDirectory + filenameWithoutExrtension + ".qua"))
+                            //{
+                            //    File.Delete(databaseDirectory + filenameWithoutExrtension + ".qua");
+                            //}
+                            //File.Move(file, databaseDirectory + filenameWithoutExrtension + ".qua");
                             fileList.Add(file);
                         }
                     }
