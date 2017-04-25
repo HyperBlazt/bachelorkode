@@ -1,0 +1,5 @@
+--- STARTUP WORKING DIR: C:\Users\Mark Roland\AppData\Roaming
+22-04-2017 10:43:57 CMD started: D:\Ba\bachelorkode\CreateData\ba_createData\bin\Debug
+Error:    ved ba_createData.Scanner.ScannerCaching.IsFileInCache(String hash) i D:\Ba\bachelorkode\CreateData\ba_createData\Scanner\ScannerCaching.cs:linje 77
+   ved ba_createData.Scanner.Scanner.ScanFile(String pattern) i D:\Ba\bachelorkode\CreateData\ba_createData\Scanner\Scanner.cs:linje 82
+   ved ba_createData.Scanner.StartupScanner.<>c__DisplayClass1_0.<BuildStartup>b__0() i D:\Ba\bachelorkode\CreateData\ba_createData\Scanner\StartupScanner.cs:linje 84
