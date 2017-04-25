@@ -632,7 +632,7 @@ namespace ba_createData
         private void button5_Click(object sender, EventArgs e)
         {
             _tcpListener?.Stop();
-            Scanner.ScannerCaching.SaveCache();
+            if(ScannerCaching.IsCacheSet()) ScannerCaching.SaveCache();
             if (Application.MessageLoop)
             {
                 if (MainServerControl.ActiveTcpClients != null)
@@ -658,7 +658,8 @@ namespace ba_createData
         {
             // On button click, create database
             SetMainTime("Starting database build..." + Environment.NewLine);
-            Database.BuildSqlDatabase();
+            //Database.BuildSqlDatabase();
+            Database.BuildFileDatabase();
             SetMainTime("Database is build." + Environment.NewLine);
         }
 

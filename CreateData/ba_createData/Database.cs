@@ -194,6 +194,50 @@ namespace ba_createData
             databaseConnection.Close();
         }
 
+
+        /// <summary>
+        /// Build the SQL database with all distinct MD5 string contained in the filedatabase 
+        /// </summary>
+        public static void BuildFileDatabase()
+        {
+            var splitOption = Properties.Settings.Default.SplitOption;
+            var databaseDirectory = Thread.GetDomain().BaseDirectory;
+            var path = Thread.GetDomain().BaseDirectory + "Hashes//";
+            var files = Directory.GetFiles(path);
+            if (files.Length == 0) return;
+            foreach (var file in files)
+            {
+                using (var sr = new StreamReader(file))
+                {
+                    // currentLine will be null when the StreamReader reaches the end of file
+                    string currentLine;
+                    while ((currentLine = sr.ReadLine()) != null)
+                    {
+
+                        // Checking current line to insure that it is a MD5 hash, with appropriate length
+                        if (Regex.Match(currentLine, Pattern, RegexOptions.None).Success)
+                        {
+                            var filePath = databaseDirectory + "\\Data\\" + currentLine.Substring(0, splitOption) +
+                                           ".data";
+                            using (
+                                var fileStream = new FileStream(
+                                    filePath,
+                                    FileMode.Append,
+                                    FileAccess.Write,
+                                    FileShare.Write))
+                            using (var bw = new BinaryWriter(fileStream))
+                            {
+                                bw.Write(currentLine + "$");
+                            }
+                        }
+                    }
+
+                    sr.Close();
+                    sr.Dispose();
+                }
+            }
+        }
+
         /// <summary>
         /// Build the TEST SQL database with all distinct MD5 string contained in the filedatabase 
         /// </summary>

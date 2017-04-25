@@ -80,7 +80,7 @@ namespace ba_createData
             this.button1.TabIndex = 6;
             this.button1.Text = "Create Database";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button6_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -404,6 +404,7 @@ namespace ba_createData
             this.button6.TabIndex = 28;
             this.button6.Text = "Create Test Database";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // textBox11
             // 
